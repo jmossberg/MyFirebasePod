@@ -9,6 +9,9 @@ import Foundation
 import FirebaseCrashlytics
 
 public class MyLogger {
+
+    public init() {}
+
     public func log(message: String) {
         Crashlytics.crashlytics().record(exceptionModel: ExceptionModel(name: "MyLogger", reason: message))
     }
