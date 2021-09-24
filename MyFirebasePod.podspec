@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
    An example of how to use Firebase Crashlytics in a pod.
                    DESC
 
-  # spec.homepage     = "https://github.com/jmossberg/MyFirebasePod.git"
+  spec.homepage     = "https://github.com/jmossberg/MyFirebasePod.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://jacobmossberg.se/MyFirebasePod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/jmossberg/MyFirebasePod.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
